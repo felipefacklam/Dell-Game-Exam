@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.btn {
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn:hover {
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.marcado {
+    background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+    pointer-events: none;
+    cursor: no-drop;
+}
+
+.desabilitado {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.jogo {
+    width:max-content;
+    display: flex;
+    --tw-bg-opacity: 1;
+    background-color: rgb(101 163 13 / var(--tw-bg-opacity));
+    border-radius: 4px;
+}
